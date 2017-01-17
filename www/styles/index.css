@@ -1,0 +1,23 @@
+body { font: 12px Arial;}
+
+.y .tick line{
+  opacity: 0.2;
+}
+
+path { 
+  stroke: steelblue;
+  stroke-width: 2;
+  fill: none;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+circle {
+  fill: #006699;
+}
